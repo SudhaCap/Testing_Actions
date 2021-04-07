@@ -29,8 +29,8 @@ jobs:
         with: 
         java-version: 1.8
         
-      - name: Setup JDK1.8
-        run: mvn -B package --file pom.xml
+      - name: Run Pom file
+        run: mvn -B package --spring-mvc-example/pom.xml
         
     
         
